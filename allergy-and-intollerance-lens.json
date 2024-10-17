@@ -19,9 +19,95 @@
     }
   ],
   "version": "0.0.1",
-  "name": "allergyintollerance-lens",
+  "name": "Allergies and Intollerance Lens",
+    "_name": {
+   "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "es"
+          },
+          {
+            "url": "content",
+            "valueString": "Lente de Alergias e Intolerancias"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "pt"
+          },
+          {
+            "url": "content",
+            "valueString": "Lente de Alergias e Intolerâncias"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "da"
+          },
+          {
+            "url": "content",
+            "valueString": "Allergi- og Intoleranselinse"
+          }
+        ]
+      }
+    ]
+  },
   "date": "2024-06-12T13:15:08.842Z",
-  "title": "Allergies",
+  "title": "Allergies and Intollerance Lens",
+    "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "es"
+          },
+          {
+            "url": "content",
+            "valueString": "Lente de Alergias e Intolerancias"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "pt"
+          },
+          {
+            "url": "content",
+            "valueString": "Lente de Alergias e Intolerâncias"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "da"
+          },
+          {
+            "url": "content",
+            "valueString": "Allergi- og Intoleranselinse"
+          }
+        ]
+      }
+    ]
+  },
   "status": "draft",
   "experimental": true,
   "type": {
@@ -44,18 +130,147 @@
     }
   ],
   "description": "A lens that highlight any information related to allergies or intollerances",
+   "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "es"
+          },
+          {
+            "url": "content",
+            "valueString": "Una lente que resalta cualquier información relacionada con alergias o intolerancias."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "pt"
+          },
+          {
+            "url": "content",
+            "valueString": " Uma lente que destaca qualquer informação relacionada com alergias ou intolerâncias."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "da"
+          },
+          {
+            "url": "content",
+            "valueString": " En linse, der fremhæver al information relateret til allergier eller intolerancer."
+          }
+        ]
+      }
+    ]
+  },
   "jurisdiction": [
     {
       "coding": [
         {
-          "code": "US",
+          "code": "EU",
           "system": "urn:iso:std:iso:3166"
         }
       ]
     }
   ],
   "purpose": "Clarify the important things related to allergies and intollerances on an ePI",
-  "usage": "This lens requires a preprocessed ePI, and an IPS to work",
+  "_purpose": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "es"
+          },
+          {
+            "url": "content",
+            "valueString": "Aclarar los aspectos importantes relacionados con alergias e intolerancias en una ePI."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "pt"
+          },
+          {
+            "url": "content",
+            "valueString": "Esclarecer os pontos importantes relacionados com alergias e intolerâncias em uma ePI."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "da"
+          },
+          {
+            "url": "content",
+            "valueString": "Klargør de vigtige ting vedrørende allergier og intolerancer i en ePI."
+          }
+        ]
+      }
+    ]
+  },
+  "usage": "This lens requires a preprocessed ePI, and an IPS to work. You can import this lens directly to your FHIR Server which suports Library Resource type.",
+  "_usage": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "es"
+          },
+          {
+            "url": "content",
+            "valueString": "Esta lente requiere una ePI preprocesada y un IPS para funcionar. Puedes importar esta lente directamente en tu servidor FHIR que soporte el tipo de recurso Library."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "pt"
+          },
+          {
+            "url": "content",
+            "valueString": "Esta lente requer uma ePI pré-processada e um IPS para funcionar. Podes importar esta lente diretamente para o teu servidor FHIR que suporte o tipo de recurso Library."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "da"
+          },
+          {
+            "url": "content",
+            "valueString": "Denne linse kræver en forbehandlet ePI og en IPS for at fungere. Du kan importere denne linse direkte til din FHIR-server, som understøtter ressource-typen Library."
+          }
+        ]
+      }
+    ]
+  },
   "copyright": "© 2024 Gravitate Health",
   "parameter": [
     {
